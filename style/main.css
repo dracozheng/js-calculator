@@ -1,0 +1,35 @@
+body {
+  background-color: #tomato;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 420px;
+}
+
+.board div {
+  align-items: center;
+  background-color: #333;
+  border: 3px #red;
+  color: tomato;
+  display: flex;
+  flex-grow: 1;
+  font-size: 2rem;
+  height: 75px;
+  justify-content: center;
+  margin: 1px;
+  width: 125px;
+}
+
+div.display {
+  width: 100%;
+}
+
+.board div:hover {
+  background-color: #666;
+}
